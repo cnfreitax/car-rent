@@ -1,0 +1,16 @@
+[
+  {
+    "id": "6a0564fc-7be4-4b30-979a-9944b5c5fdf7",
+    "name": "Beetle",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "2f7b5544-f6b9-4862-ae53-6083052512c0",
+    "name": "Element",
+    "releaseYear": 2020,
+    "available": true,
+    "gasAvailable": true
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "05-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx mocha -w --parallel './tests/**/*.test.js'",
+    "test:cov": "npx nyc mocha --parallel './tests/**/*.test.js'",
+    "seed": "node ./seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "faker": "^5.4.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.1"
+  }
+}
